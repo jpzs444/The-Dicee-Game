@@ -1,3 +1,7 @@
+if (window.performance.navigation.type === 1) {
+  rollDice();
+}
+
 function rollDice() {
   var randomNumber1 = Math.floor(Math.random() * 6) + 1;
   var randomNumber2 = Math.floor(Math.random() * 6) + 1;
