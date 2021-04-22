@@ -11,13 +11,13 @@ html {
   --green: #4ECCA3;
   --gray: #393E46;
   --black: #232931;
+  --white: #EEEEEE;
 }
 
   body {
     background-color: var(--gray);
     text-align: center;
     font-family: 'Indie Flower', cursive;
-    font-size: 2rem;
     color: var(--green);
   }
 
@@ -37,10 +37,15 @@ html {
       font-size: 8rem;
     }
 
+    p {
+      font-size: 2rem;
+    }
+
     img {
       width: 80%;
     }
 
     footer {
       margin-top: 5%;
+      color: var(--white);
     }
