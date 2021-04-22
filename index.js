@@ -1,4 +1,5 @@
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
+var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
 if (randomNumber1 === 1) {
     document.querySelector(".img1").setAttribute("src", "images/dice1.png");
